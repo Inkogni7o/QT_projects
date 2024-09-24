@@ -31,6 +31,8 @@ MainWindow::MainWindow(QWidget *parent)
             this, &MainWindow::saveToCsvByCsvWriter);
 }
 
+
+
 MainWindow::~MainWindow()
 {
     delete ui;
@@ -83,7 +85,7 @@ void MainWindow::openFileDialog()
 }
 
 bool compareByStudio(const Film& a, const Film& b) {
-    return a.studio < b.studio;
+    return a < b;
 }
 
 void MainWindow::uploadTable(int mode)
@@ -167,10 +169,6 @@ void MainWindow::saveToJson()
         std::ofstream file(name);
         file << std::setw(4) << json << std::endl;
     }
-
-
-
-
 }
 
 void MainWindow::addRow()
