@@ -1,18 +1,14 @@
 #ifndef CSVREADER_H
 #define CSVREADER_H
 
-#include <string>
-#include <vector>
-#include <fstream>
+#include "abstractreader.h"
 
-#include "film.h"
-
-class CsvReader
+class CsvReader : public AbstractReader
 {
 public:
     CsvReader(const std::string& filename);
-    bool isOpen();
-    std::vector<Film> readAll();
+    bool isOpen() override;
+    std::vector<Film> readAll() override;
 
 private:
     std::ifstream fin;

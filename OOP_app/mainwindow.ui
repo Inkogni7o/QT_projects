@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>We &lt;3 OOP</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -64,7 +64,7 @@
      </layout>
     </item>
     <item>
-     <widget class="colorfulTable" name="outputTable"/>
+     <widget class="QTableWidget" name="outputTable"/>
     </item>
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -183,13 +183,6 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>colorfulTable</class>
-   <extends>QTableWidget</extends>
-   <header>colorfultable.h</header>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections>
   <connection>

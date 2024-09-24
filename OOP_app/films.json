@@ -1,0 +1,122 @@
+{ "films": [
+    {
+    "ID": 1,
+    "Title": "Attack on Titan",
+    "Type": "Serial",
+    "Studio": "Mappa"
+    },
+    {
+    "ID": 2,
+    "Title": "Demon Slayer: Kimetsu no Yaiba",
+    "Type": "Movie",
+    "Studio": "Ufotable"
+    },
+    {
+    "ID": 3,
+    "Title": "One Punch Man",
+    "Type": "OVA",
+    "Studio": "Madhouse"
+    },
+    {
+    "ID": 4,
+    "Title": "Death Note",
+    "Type": "Serial",
+    "Studio": "Madhouse"
+    },
+    {
+    "ID": 5,
+    "Title": "The Witcher",
+    "Type": "Serial",
+    "Studio": "Netflix"
+    },
+    {
+    "ID": 6,
+    "Title": "Game of Thrones",
+    "Type": "Serial",
+    "Studio": "HBO"
+    },
+    {
+    "ID": 7,
+    "Title": "Cowboy Bebop",
+    "Type": "Movie",
+    "Studio": "Sunrise"
+    },
+    {
+    "ID": 8,
+    "Title": "Naruto",
+    "Type": "Serial",
+    "Studio": "Studio Pierrot"
+    },
+    {
+    "ID": 9,
+    "Title": "My Hero Academia",
+    "Type": "Serial",
+    "Studio": "Bones"
+    },
+    {
+    "ID": 10,
+    "Title": "Stranger Things",
+    "Type": "Serial",
+    "Studio": "Netflix"
+    },
+    {
+    "ID": 11,
+    "Title": "Steins;Gate",
+    "Type": "Serial",
+    "Studio": "White Fox"
+    },
+    {
+    "ID": 12,
+    "Title": "Fullmetal Alchemist: Brotherhood",
+    "Type": "Serial",
+    "Studio": "Bones"
+    },
+    {
+    "ID": 13,
+    "Title": "The Last Airbender",
+    "Type": "Movie",
+    "Studio": "Nickelodeon Animation Studio"
+    },
+    {
+    "ID": 14,
+    "Title": "Black Clover",
+    "Type": "Serial",
+    "Studio": "Studio Pierrot"
+    },
+    {
+    "ID": 15,
+    "Title": "Breaking Bad",
+    "Type": "Serial",
+    "Studio": "Gran Via Productions"
+    },
+    {
+    "ID": 16,
+    "Title": "The Crown",
+    "Type": "Serial",
+    "Studio": "Left Bank Pictures"
+    },
+    {
+    "ID": 17,
+    "Title": "The Mandalorian",
+    "Type": "Serial",
+    "Studio": "Lucasfilm"
+    },
+    {
+    "ID": 18,
+    "Title": "The Office (US)",
+    "Type": "Serial",
+    "Studio": "Deedle-Dee Productions"
+    },
+    {
+    "ID": 19,
+    "Title": "Money Heist",
+    "Type": "Serial",
+    "Studio": "Netflix"
+    },
+    {
+    "ID": 20,
+    "Title": "The Expanse",
+    "Type": "Serial",
+    "Studio": "Alcon Television Group"
+    }    ]
+}

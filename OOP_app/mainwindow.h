@@ -5,6 +5,9 @@
 #include <QFileDialog>
 
 #include "film.h"
+#include "csvreader.h"
+#include "csvwriter.h"
+#include "jsonreader.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -21,7 +24,7 @@ public:
 public slots:
     void search();
     void openFileDialog();
-    void uploadTable();
+    void uploadTable(int mode);
     void updateTable();
     void saveToCsv();
     void addRow();

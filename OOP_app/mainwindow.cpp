@@ -1,8 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-
-#include "csvreader.h"
-#include "csvwriter.h"
+#include "QDebug"
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -69,11 +67,17 @@ void MainWindow::search()
 void MainWindow::openFileDialog()
 {
     QString name = QFileDialog::getOpenFileName(this,
-                                    tr("Выбрать CSV файл"),
-                                    "", tr("CSV Files (*.csv)"));
+                              tr("Выбрать файл"), "",
+                              tr("CSV Files (*.csv);;JSON Files (*.json)"));
     if (!name.isEmpty()) {
-        fileName = name.toStdString();
-        this->uploadTable();
+       QFileInfo fileInfo(name);
+       if (fileInfo.suffix() == "csv") {
+           fileName = name.toStdString();
+           this->uploadTable(1);
+        } else if (fileInfo.suffix() == "json"){
+           fileName = name.toStdString();
+           this->uploadTable(2);
+       }
     }
 }
 
@@ -81,27 +85,34 @@ bool compareByStudio(const Film& a, const Film& b) {
     return a.studio < b.studio;
 }
 
-void MainWindow::uploadTable()
+void MainWindow::uploadTable(int mode)
 {
-    CsvReader csv(fileName);
-    if (csv.isOpen()) {
-        films = csv.readAll();
-
-        std::sort(films.begin(), films.end(), compareByStudio);
-
-        ui->outputTable->setRowCount(films.size());
-        for (size_t i = 0; i < films.size(); i++) {
-            const Film& f = films[i];
-            QTableWidgetItem *id = new QTableWidgetItem(QString::number(f.id));
-            QTableWidgetItem *name = new QTableWidgetItem(QString::fromStdString(f.name));
-            QTableWidgetItem *type = new QTableWidgetItem(QString::fromStdString(f.type));
-            QTableWidgetItem *studio = new QTableWidgetItem(QString::fromStdString(f.studio));
-
-            ui->outputTable->setItem(i, 0, id);
-            ui->outputTable->setItem(i, 1, name);
-            ui->outputTable->setItem(i, 2, type);
-            ui->outputTable->setItem(i, 3, studio);
+    if (mode == 1) {
+        CsvReader reader(fileName);
+        if (reader.isOpen()) {
+            films = reader.readAll();
         }
+    } else if (mode == 2) {
+        jsonReader reader(fileName);
+        if (reader.isOpen()) {
+            films = reader.readAll();
+        }
+    }
+
+    std::sort(films.begin(), films.end(), compareByStudio);
+
+    ui->outputTable->setRowCount(films.size());
+    for (size_t i = 0; i < films.size(); i++) {
+        const Film& f = films[i];
+        QTableWidgetItem *id = new QTableWidgetItem(QString::number(f.id));
+        QTableWidgetItem *name = new QTableWidgetItem(QString::fromStdString(f.name));
+        QTableWidgetItem *type = new QTableWidgetItem(QString::fromStdString(f.type));
+        QTableWidgetItem *studio = new QTableWidgetItem(QString::fromStdString(f.studio));
+
+        ui->outputTable->setItem(i, 0, id);
+        ui->outputTable->setItem(i, 1, name);
+        ui->outputTable->setItem(i, 2, type);
+        ui->outputTable->setItem(i, 3, studio);
     }
 }
 
