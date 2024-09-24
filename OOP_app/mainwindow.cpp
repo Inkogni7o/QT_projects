@@ -91,9 +91,13 @@ bool compareByStudio(const Film& a, const Film& b) {
 void MainWindow::uploadTable(int mode)
 {
     if (mode == 1) {
-        CsvReader reader(fileName);
-        if (reader.isOpen()) {
-            films = reader.readAll();
+        try {
+            CsvReader reader(fileName);
+            if (reader.isOpen()) {
+                films = reader.readAll();
+            }
+        } catch (const std::runtime_error& err) {
+            ui->editSearch->setText(err.what());
         }
     } else if (mode == 2) {
         jsonReader reader(fileName);

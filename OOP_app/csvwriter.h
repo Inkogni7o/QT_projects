@@ -9,7 +9,7 @@
 class CsvWriter
 {
 public:
-    CsvWriter(std::string nameSaveFile);
+    CsvWriter(std::string& nameSaveFile);
     bool isOpen() const;
     void writeAll(std::vector<Film> vec);
 

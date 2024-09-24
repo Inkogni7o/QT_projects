@@ -1,6 +1,6 @@
 #include "jsonreader.h"
 
-jsonReader::jsonReader(std::string filename)
+jsonReader::jsonReader(std::string &filename)
 {
     fin = std::ifstream(filename);
 }

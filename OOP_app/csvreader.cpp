@@ -30,6 +30,7 @@ bool CsvReader::isOpen()
 std::vector<Film> CsvReader::readAll()
 {
     std::vector<Film> films;
+    int numLine = 0;
     while (!fin.eof()) {
         std::string line;
         std::getline(fin, line);
@@ -43,7 +44,9 @@ std::vector<Film> CsvReader::readAll()
             f.studio = tokens[3];
 
             films.push_back(f);
-        }
+        } else {
+            throw std::runtime_error("Error on line: " + std::to_string(numLine));
+        } numLine += 1;
     }
     return films;
 }

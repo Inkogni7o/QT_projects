@@ -2,6 +2,7 @@
 #define FILM_H
 
 #include <string>
+#include <fstream>
 
 struct Film
 {
@@ -10,36 +11,30 @@ struct Film
     std::string type;
     std::string studio;
 
-    bool operator> (const Film other) const
+    bool operator> (const Film &other) const
     {
         if (studio > other.studio) {
             return true;
-        } else {
-            return false;
-        }
+        } return false;
     }
 
-    bool operator< (const Film other) const
+    bool operator< (const Film &other) const
     {
         if (studio < other.studio) {
             return true;
-        } else {
-            return false;
-        }
+        } return false;
     }
 
-    bool operator== (const Film other) const
+    bool operator== (const Film &other) const
     {
         if (studio == other.studio) {
             return true;
-        } else {
-            return false;
-        }
+        } return false;
     }
 
-    friend std::ostream& operator<<(std::ostream& os, Film f)
+    friend std::ostream& operator<<(std::ostream& os, const Film& f)
     {
-        os << f.name << ";" << f.type << ";" << f.studio;
+        os << f.id << ";" << f.name << ";" << f.type << ";" << f.studio;
         return os;
     }
 };

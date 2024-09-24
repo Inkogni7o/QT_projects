@@ -7,7 +7,7 @@
 class jsonReader : public AbstractReader
 {
 public:
-    jsonReader(std::string filename);
+    jsonReader(std::string &filename);
     bool isOpen() override;
     std::vector<Film> readAll() override;
 

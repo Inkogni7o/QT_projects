@@ -1,6 +1,6 @@
 #include "csvwriter.h"
 
-CsvWriter::CsvWriter(std::string nameSaveFile)
+CsvWriter::CsvWriter(std::string &nameSaveFile)
 {
     fout = std::ofstream(nameSaveFile);
 }
