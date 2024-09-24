@@ -1,6 +1,5 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "QDebug"
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -22,8 +21,10 @@ MainWindow::MainWindow(QWidget *parent)
 
     connect(ui->btnImportFile, &QPushButton::clicked,
             this, &MainWindow::openFileDialog);  // connect btn for search
-    connect(ui->btnSaveFile, &QPushButton::clicked,
+    connect(ui->btnSaveToCsv, &QPushButton::clicked,
             this, &MainWindow::saveToCsv);
+    connect(ui->btnSaveToJson, &QPushButton::clicked,
+            this, &MainWindow::saveToJson);
     connect(ui->btnAddFilm, &QPushButton::clicked,
             this, &MainWindow::addRow);
     connect(ui->btnCsvWriterSave, &QPushButton::clicked,
@@ -137,17 +138,39 @@ void MainWindow::saveToCsv()
 {
     QString saveName = QFileDialog::getSaveFileName(this, "Сохранить в CSV", "", "CSV Files (*.csv)");
     if (!saveName.isEmpty()) {
-                QFile file(saveName);
-                if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
-                    QTextStream out(&file);
-
-                    for (const Film& f: films) {
-                        out << QString::number(f.id) << "," << QString::fromStdString(f.name)
-                            << "," << QString::fromStdString(f.type) << "," << QString::fromStdString(f.studio) << "\n";
-                    }
-                    file.close();
-                }
+        QFile file(saveName);
+        if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+            QTextStream out(&file);
+            for (const Film& f: films) {
+                out << QString::number(f.id) << "," << QString::fromStdString(f.name)
+                << "," << QString::fromStdString(f.type) << "," << QString::fromStdString(f.studio) << "\n";
+            }
+            file.close();
+        }
     }
+}
+
+void MainWindow::saveToJson()
+{
+    nlohmann::json json;
+    QString saveName = QFileDialog::getSaveFileName(this, "Сохранить в JSON", "", "JSON Files (*.json)");
+    if (!saveName.isEmpty()) {
+        for (const auto& film : films) {
+            nlohmann::json film_json;
+            film_json["ID"] = film.id;
+            film_json["Title"] = film.name;
+            film_json["Type"] = film.type;
+            film_json["Studio"] = film.studio;
+            json["films"].push_back(film_json);
+        }
+        std::string name = saveName.toStdString();
+        std::ofstream file(name);
+        file << std::setw(4) << json << std::endl;
+    }
+
+
+
+
 }
 
 void MainWindow::addRow()

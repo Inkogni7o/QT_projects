@@ -27,6 +27,7 @@ public slots:
     void uploadTable(int mode);
     void updateTable();
     void saveToCsv();
+    void saveToJson();
     void addRow();
     void saveToCsvByCsvWriter();
 

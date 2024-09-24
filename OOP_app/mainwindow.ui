@@ -25,9 +25,9 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="btnSaveFile">
+       <widget class="QPushButton" name="btnSaveToCsv">
         <property name="text">
-         <string>Save file</string>
+         <string>Save file to CSV</string>
         </property>
        </widget>
       </item>
@@ -35,6 +35,13 @@
        <widget class="QPushButton" name="btnCsvWriterSave">
         <property name="text">
          <string>CSVWriter</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnSaveToJson">
+        <property name="text">
+         <string>Save file to JSON</string>
         </property>
        </widget>
       </item>
