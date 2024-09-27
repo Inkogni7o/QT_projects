@@ -1,7 +1,10 @@
 #include "figures.h"
 
 Triangle::Triangle(const QPoint& p1, const QPoint& p2, const QPoint& p3)
-    : p1(p1), p2(p2), p3(p3) {}
+    : p1(p1), p2(p2), p3(p3) {
+    offset1 = p2 - p1;
+    offset2 = p3 - p1;
+}
 
 void Triangle::draw(QPainter& painter)
 {
@@ -41,6 +44,16 @@ std::string Triangle::getText()
     return text;
 }
 
+QPoint Triangle::getPosition() {
+    return p1;
+}
+
+void Triangle::setPosition(QPoint target) {
+    p1 = target;
+    p2 = target + offset1;
+    p3 = target + offset2;
+}
+
 
 
 Circle::Circle(const QPoint& center, int radius)
@@ -73,6 +86,14 @@ std::string Circle::getText()
 
     std::string text = text1 + text2 + text3;
     return text;
+}
+
+QPoint Circle::getPosition() {
+    return center;
+}
+
+void Circle::setPosition(QPoint target) {
+    center = target;
 }
 
 
@@ -108,4 +129,12 @@ std::string Rectangle::getText()
 
     std::string text = text1 + text2 + text3 + text4;
     return text;
+}
+
+QPoint Rectangle::getPosition() {
+    return topLeft;
+}
+
+void Rectangle::setPosition(QPoint target) {
+    topLeft = target;
 }

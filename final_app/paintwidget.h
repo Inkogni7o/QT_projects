@@ -5,6 +5,7 @@
 #include <QPainter>
 #include <QMouseEvent>
 #include <QMessageBox>
+#include <QMenu>
 #include <memory>
 
 #include "figure.h"
@@ -17,11 +18,19 @@ public:
     virtual ~paintWidget();
     QPainter *painter_p;
     std::list<std::unique_ptr<Figure>> figures;
+    Figure* draggedFigure = nullptr;
+    QPoint dragOffset;
+    Figure* selectedFigure;
+
+public slots:
+    void deleteFigure();
 
 protected:
     void paintEvent(QPaintEvent* event) override;
     void mouseMoveEvent(QMouseEvent* event) override;
     void mousePressEvent(QMouseEvent* event) override;
+    void mouseReleaseEvent(QMouseEvent* event) override;
+    QMenu *contextMenu;
 };
 
 #endif // PAINTWIDGET_H

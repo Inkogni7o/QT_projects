@@ -12,6 +12,10 @@ public:
     virtual void setColor(QColor color) override;
     virtual QColor getColor() override;
     virtual std::string getText() override;
+    virtual QPoint getPosition() override;
+    virtual void setPosition(QPoint target) override;
+    QPoint offset1;
+    QPoint offset2;
 
 private:
     QPoint p1, p2, p3;
@@ -26,6 +30,8 @@ public:
     virtual void setColor(QColor color) override;
     virtual QColor getColor() override;
     virtual std::string getText() override;
+    virtual QPoint getPosition() override;
+    virtual void setPosition(QPoint target) override;
 
 private:
     QPoint center;
@@ -41,6 +47,8 @@ public:
     virtual void setColor(QColor color) override;
     virtual QColor getColor() override;
     virtual std::string getText() override;
+    virtual QPoint getPosition() override;
+    virtual void setPosition(QPoint target) override;
 
 private:
     QPoint topLeft;

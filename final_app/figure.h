@@ -14,6 +14,8 @@ public:
     virtual void setColor(QColor color) = 0;
     virtual QColor getColor() = 0;
     virtual std::string getText() = 0;
+    virtual QPoint getPosition() = 0;
+    virtual void setPosition(QPoint target) = 0;
 protected:
     QColor color = Qt::green;
 };
