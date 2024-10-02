@@ -12,6 +12,17 @@ paintWidget::paintWidget (QWidget *parent) : QWidget(parent) {
     QAction *action1 = new QAction(tr("Удалить"), this);
     contextMenu->addAction(action1);
     connect(action1, &QAction::triggered, this, &paintWidget::deleteFigure);
+
+    contextMenu1 = new QMenu(this);
+    QAction *action_triangle = new QAction(tr("Добавить треугольник"));
+    QAction *action_circle = new QAction(tr("Добавить круг"));
+    QAction *action_rectangle = new QAction(tr("Добавить прямоугольник"));
+    contextMenu1->addAction(action_triangle);
+    contextMenu1->addAction(action_circle);
+    contextMenu1->addAction(action_rectangle);
+    connect(action_triangle, &QAction::triggered, this, &paintWidget::addTriangle);
+    connect(action_circle, &QAction::triggered, this, &paintWidget::addCircle);
+    connect(action_rectangle, &QAction::triggered, this, &paintWidget::addRectangle);
 }
 
 paintWidget::~paintWidget() {}
@@ -52,6 +63,28 @@ void paintWidget::deleteFigure() {
     update();
 }
 
+void paintWidget::addTriangle() {
+    int randNum1 = std::rand() % 150;
+    int randNum2 = std::rand() % 150;
+    int randNum3 = std::rand() % 150;
+    int randNum4 = std::rand() % 150;
+    figures.push_back(std::make_unique<Triangle>(QPoint(50, 50),
+            QPoint(100 + randNum1, 50 + randNum2),
+            QPoint(50 + randNum1 + randNum3, 100 + randNum2 + randNum4)));
+}
+
+void paintWidget::addCircle() {
+    int randNum = std::rand() % 100 + 50;
+    figures.push_back(std::make_unique<Circle>(QPoint(100, 250), randNum));
+    update();
+}
+
+void paintWidget::addRectangle() {
+    int randNum1 = std::rand() % 100 + 75;
+    int randNum2 = std::rand() % 100 + 75;
+    figures.push_back(std::make_unique<Rectangle>(QPoint(50, 350), randNum1, randNum2));
+}
+
 
 void paintWidget::mousePressEvent(QMouseEvent* event)
 {
@@ -72,21 +105,27 @@ void paintWidget::mousePressEvent(QMouseEvent* event)
         }
     }
     if (event->button() == Qt::RightButton) {
+        bool insideFigure = false;
         for (const auto& figure : figures) {
             if (figure->isCursorInside( event->pos() )) {
                 contextMenu->popup(mapToGlobal(event->pos()));
                 selectedFigure = figure.get();
+                insideFigure = true;
+                break;
             }
         }
+        if (not insideFigure){
+            contextMenu1->popup(mapToGlobal(event->pos()));
+        }
     }
-    this->update();
+    update();
 }
 
 void paintWidget::mouseReleaseEvent(QMouseEvent *event)
 {
     if (event->button() == Qt::LeftButton && draggedFigure != nullptr) {
         draggedFigure = nullptr;
-        this->update();
+        update();
     }
 }
 

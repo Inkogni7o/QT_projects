@@ -24,6 +24,9 @@ public:
 
 public slots:
     void deleteFigure();
+    void addTriangle();
+    void addCircle();
+    void addRectangle();
 
 protected:
     void paintEvent(QPaintEvent* event) override;
@@ -31,6 +34,7 @@ protected:
     void mousePressEvent(QMouseEvent* event) override;
     void mouseReleaseEvent(QMouseEvent* event) override;
     QMenu *contextMenu;
+    QMenu *contextMenu1;
 };
 
 #endif // PAINTWIDGET_H
