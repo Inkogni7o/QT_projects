@@ -9,7 +9,7 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-BkEuNp\\clang-uiheader-xoahGU",
+        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-unylYE\\clang-uiheader-RlbPTO",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -33,7 +33,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "D:\\QT_projects\\final_app",
+        "D:\\QT_projects-1\\final_app",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include",
         "-I",
@@ -43,9 +43,9 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include\\QtCore",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug\\debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug\\debug",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\mkspecs\\win32-g++",
         "-isystem",
@@ -69,10 +69,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "D:\\QT_projects\\final_app\\figure.cpp"
+        "D:\\QT_projects-1\\final_app\\figure.cpp"
     ],
-    "directory": "D:/QT_projects/build-final_app-default-Debug/.qtc_clangd",
-    "file": "D:/QT_projects/final_app/figure.cpp"
+    "directory": "D:/QT_projects-1/build-final_app-default-Debug/.qtc_clangd",
+    "file": "D:/QT_projects-1/final_app/figure.cpp"
 },
 {
     "arguments": [
@@ -84,7 +84,7 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-BkEuNp\\clang-uiheader-xoahGU",
+        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-unylYE\\clang-uiheader-RlbPTO",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -108,7 +108,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "D:\\QT_projects\\final_app",
+        "D:\\QT_projects-1\\final_app",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include",
         "-I",
@@ -118,9 +118,9 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include\\QtCore",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug\\debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug\\debug",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\mkspecs\\win32-g++",
         "-isystem",
@@ -144,10 +144,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "D:\\QT_projects\\final_app\\figures.cpp"
+        "D:\\QT_projects-1\\final_app\\figures.cpp"
     ],
-    "directory": "D:/QT_projects/build-final_app-default-Debug/.qtc_clangd",
-    "file": "D:/QT_projects/final_app/figures.cpp"
+    "directory": "D:/QT_projects-1/build-final_app-default-Debug/.qtc_clangd",
+    "file": "D:/QT_projects-1/final_app/figures.cpp"
 },
 {
     "arguments": [
@@ -159,7 +159,7 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-BkEuNp\\clang-uiheader-xoahGU",
+        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-unylYE\\clang-uiheader-RlbPTO",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -183,7 +183,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "D:\\QT_projects\\final_app",
+        "D:\\QT_projects-1\\final_app",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include",
         "-I",
@@ -193,9 +193,9 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include\\QtCore",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug\\debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug\\debug",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\mkspecs\\win32-g++",
         "-isystem",
@@ -219,10 +219,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "D:\\QT_projects\\final_app\\main.cpp"
+        "D:\\QT_projects-1\\final_app\\main.cpp"
     ],
-    "directory": "D:/QT_projects/build-final_app-default-Debug/.qtc_clangd",
-    "file": "D:/QT_projects/final_app/main.cpp"
+    "directory": "D:/QT_projects-1/build-final_app-default-Debug/.qtc_clangd",
+    "file": "D:/QT_projects-1/final_app/main.cpp"
 },
 {
     "arguments": [
@@ -234,7 +234,7 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-BkEuNp\\clang-uiheader-xoahGU",
+        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-unylYE\\clang-uiheader-RlbPTO",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -258,7 +258,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "D:\\QT_projects\\final_app",
+        "D:\\QT_projects-1\\final_app",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include",
         "-I",
@@ -268,9 +268,9 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include\\QtCore",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug\\debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug\\debug",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\mkspecs\\win32-g++",
         "-isystem",
@@ -294,10 +294,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "D:\\QT_projects\\final_app\\mainwindow.cpp"
+        "D:\\QT_projects-1\\final_app\\mainwindow.cpp"
     ],
-    "directory": "D:/QT_projects/build-final_app-default-Debug/.qtc_clangd",
-    "file": "D:/QT_projects/final_app/mainwindow.cpp"
+    "directory": "D:/QT_projects-1/build-final_app-default-Debug/.qtc_clangd",
+    "file": "D:/QT_projects-1/final_app/mainwindow.cpp"
 },
 {
     "arguments": [
@@ -309,7 +309,7 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-BkEuNp\\clang-uiheader-xoahGU",
+        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-unylYE\\clang-uiheader-RlbPTO",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -333,7 +333,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "D:\\QT_projects\\final_app",
+        "D:\\QT_projects-1\\final_app",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include",
         "-I",
@@ -343,9 +343,9 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include\\QtCore",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug\\debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug\\debug",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\mkspecs\\win32-g++",
         "-isystem",
@@ -369,10 +369,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "D:\\QT_projects\\final_app\\paintwidget.cpp"
+        "D:\\QT_projects-1\\final_app\\paintwidget.cpp"
     ],
-    "directory": "D:/QT_projects/build-final_app-default-Debug/.qtc_clangd",
-    "file": "D:/QT_projects/final_app/paintwidget.cpp"
+    "directory": "D:/QT_projects-1/build-final_app-default-Debug/.qtc_clangd",
+    "file": "D:/QT_projects-1/final_app/paintwidget.cpp"
 },
 {
     "arguments": [
@@ -384,7 +384,7 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-BkEuNp\\clang-uiheader-xoahGU",
+        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-unylYE\\clang-uiheader-RlbPTO",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -408,7 +408,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "D:\\QT_projects\\final_app",
+        "D:\\QT_projects-1\\final_app",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include",
         "-I",
@@ -418,9 +418,9 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include\\QtCore",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug\\debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug\\debug",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\mkspecs\\win32-g++",
         "-isystem",
@@ -444,10 +444,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "D:\\QT_projects\\final_app\\figure.h"
+        "D:\\QT_projects-1\\final_app\\figure.h"
     ],
-    "directory": "D:/QT_projects/build-final_app-default-Debug/.qtc_clangd",
-    "file": "D:/QT_projects/final_app/figure.h"
+    "directory": "D:/QT_projects-1/build-final_app-default-Debug/.qtc_clangd",
+    "file": "D:/QT_projects-1/final_app/figure.h"
 },
 {
     "arguments": [
@@ -459,7 +459,7 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-BkEuNp\\clang-uiheader-xoahGU",
+        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-unylYE\\clang-uiheader-RlbPTO",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -483,7 +483,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "D:\\QT_projects\\final_app",
+        "D:\\QT_projects-1\\final_app",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include",
         "-I",
@@ -493,9 +493,9 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include\\QtCore",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug\\debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug\\debug",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\mkspecs\\win32-g++",
         "-isystem",
@@ -519,10 +519,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "D:\\QT_projects\\final_app\\figures.h"
+        "D:\\QT_projects-1\\final_app\\figures.h"
     ],
-    "directory": "D:/QT_projects/build-final_app-default-Debug/.qtc_clangd",
-    "file": "D:/QT_projects/final_app/figures.h"
+    "directory": "D:/QT_projects-1/build-final_app-default-Debug/.qtc_clangd",
+    "file": "D:/QT_projects-1/final_app/figures.h"
 },
 {
     "arguments": [
@@ -534,7 +534,7 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-BkEuNp\\clang-uiheader-xoahGU",
+        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-unylYE\\clang-uiheader-RlbPTO",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -558,7 +558,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "D:\\QT_projects\\final_app",
+        "D:\\QT_projects-1\\final_app",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include",
         "-I",
@@ -568,9 +568,9 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include\\QtCore",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug\\debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug\\debug",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\mkspecs\\win32-g++",
         "-isystem",
@@ -594,10 +594,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "D:\\QT_projects\\final_app\\mainwindow.h"
+        "D:\\QT_projects-1\\final_app\\mainwindow.h"
     ],
-    "directory": "D:/QT_projects/build-final_app-default-Debug/.qtc_clangd",
-    "file": "D:/QT_projects/final_app/mainwindow.h"
+    "directory": "D:/QT_projects-1/build-final_app-default-Debug/.qtc_clangd",
+    "file": "D:/QT_projects-1/final_app/mainwindow.h"
 },
 {
     "arguments": [
@@ -609,7 +609,7 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-BkEuNp\\clang-uiheader-xoahGU",
+        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-unylYE\\clang-uiheader-RlbPTO",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -633,7 +633,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "D:\\QT_projects\\final_app",
+        "D:\\QT_projects-1\\final_app",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include",
         "-I",
@@ -643,9 +643,9 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include\\QtCore",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug\\debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug\\debug",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\mkspecs\\win32-g++",
         "-isystem",
@@ -669,10 +669,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "D:\\QT_projects\\final_app\\paintwidget.h"
+        "D:\\QT_projects-1\\final_app\\paintwidget.h"
     ],
-    "directory": "D:/QT_projects/build-final_app-default-Debug/.qtc_clangd",
-    "file": "D:/QT_projects/final_app/paintwidget.h"
+    "directory": "D:/QT_projects-1/build-final_app-default-Debug/.qtc_clangd",
+    "file": "D:/QT_projects-1/final_app/paintwidget.h"
 },
 {
     "arguments": [
@@ -684,7 +684,7 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-BkEuNp\\clang-uiheader-xoahGU",
+        "C:\\Users\\USer\\AppData\\Local\\Temp\\QtCreator-unylYE\\clang-uiheader-RlbPTO",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -708,7 +708,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "D:\\QT_projects\\final_app",
+        "D:\\QT_projects-1\\final_app",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include",
         "-I",
@@ -718,9 +718,9 @@
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\include\\QtCore",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug\\debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug\\debug",
         "-I",
-        "D:\\QT_projects\\build-final_app-default-Debug",
+        "D:\\QT_projects-1\\build-final_app-default-Debug",
         "-I",
         "C:\\Users\\USer\\Downloads\\QtCreator\\QtCreator\\mkspecs\\win32-g++",
         "-isystem",
@@ -744,9 +744,9 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "D:\\QT_projects\\build-final_app-default-Debug\\ui_mainwindow.h"
+        "D:\\QT_projects-1\\build-final_app-default-Debug\\ui_mainwindow.h"
     ],
-    "directory": "D:/QT_projects/build-final_app-default-Debug/.qtc_clangd",
-    "file": "D:/QT_projects/build-final_app-default-Debug/ui_mainwindow.h"
+    "directory": "D:/QT_projects-1/build-final_app-default-Debug/.qtc_clangd",
+    "file": "D:/QT_projects-1/build-final_app-default-Debug/ui_mainwindow.h"
 }
 ]
